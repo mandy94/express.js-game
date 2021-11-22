@@ -1,0 +1,39 @@
+body{
+    background-color: yellowgreen;
+}
+
+img{
+    height: 250px; 
+    width: 200px;
+    object-fit: cover;
+}
+.image:hover {
+    -webkit-filter: brightness(80%);
+    filter: brightness(80%);
+ }
+ .noHover{
+    pointer-events: none;
+}
+
+ .active{
+    -webkit-filter: brightness(99%);
+    filter: brightness(100%);
+ }
+
+ .passive {
+    -webkit-filter: brightness(0%);
+    filter: brightness(0%);
+ 
+ }
+ .disable{
+    -webkit-filter: brightness(90%);
+    filter: brightness(50%);
+ }
+ 
+
+ .hide{
+     visibility: hidden;
+ }
+ .show{
+    visibility: visible;
+}
